@@ -2,7 +2,7 @@
 
 while [ "$(docker-cloud service ps | grep trac-app | awk '{print $4}')" != 'Running' ]
 do
-        sleep 20
+        sleep 5
 done
 
 
