@@ -2,7 +2,7 @@
 while [ "$(docker-cloud service ps | grep loadbalancerdb | awk '{print $4}')" != 'Running' ]
 do
         echo "loadbalancertrac service is Starting.."
-        sleep 5
+        sleep 1
 done
 
 
