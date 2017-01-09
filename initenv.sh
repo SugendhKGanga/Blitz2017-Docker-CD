@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for (( c=1; c<=10; c++ ))
+for (( c=1; c<=scaled_to; c++ ))
 do
     n=1
     n=$(( n+1 ))
